@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Blog Preview Card</title>
+  <style>
+    
+    @font-face {
+      font-family: Figtree;
+      src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+    }
+
+    body {
+      background-color: #F4D04E;
+      font-family: Figtree;
+      user-select: none;
+    }
+
+    h2,h4,p {
+      margin: 0;
+    }
+
+    .blog-img {
+      height: 150px;
+      border-radius: 14px;
+    }
+
+    .img-div {
+      align-self: center;
+      width: max-content;
+    }
+
+    .container {
+      padding: 1em 1em 0.4em 1em;
+      display: flex;
+      flex-direction: column;
+      width: 260px;
+      gap: 12px;
+      height: 360px;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border: 1px solid #111;
+      border-radius: 12px;
+      box-shadow: 7px 7px 0px 0px rgba(0,0,0,0.75);
+      background-color: #fff;
+    }
+
+    .container .title:hover {
+      color: #F4D04E;
+      transition: all 0.2s ease-in-out;
+      cursor: pointer;
+    }
+    
+    .container-desc {
+      margin-top: 2px;
+    }
+
+    .learn {
+      font-size: 0.75rem;
+      font-weight: 800;
+      padding: 3px;
+      background-color: #F4D04E;
+      display: inline;
+      border-radius: 3px;
+    }
+
+    .date {
+      margin-top: 10px;
+      font-size: 0.75rem;
+      font-weight: 500;
+    }
+
+    .title {
+      margin-top: 6px;
+      font-size: 20px;
+    }
+
+    .para {
+      margin-top: 4px;
+      font-size: 0.75rem;
+      padding-right: 2em;
+      line-height: 1.5;
+    }
+
+    .writer {
+      margin-top: 6px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .dp-img {
+      width: 22px;
+      height: 22px;
+    }
+
+    .author {
+      font-size: 0.5625rem;
+      font-weight: 800;
+    }
+
+    @media screen and (min-width: 375px) and (max-width: 800px) {
+      .container {
+        height: 350px;
+        width: 250px;
+        gap: 10px;
+      }
+
+      .img-div {
+        max-width: 100%;
+      }
+      
+      
+
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="img-div">
+      <img src="./assets/images/illustration-article.svg" alt="Blog Image" class="blog-img"/>  
+    </div>  
+    <div class="container-desc">
+      <p class="learn">Learning</p>
+      <h4 class="date">Published 21 Dec 2023</h4>
+      <h2 class="title">HTML & CSS foundations</h2>
+      <p class="para">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    </div>
+    <div class="writer">
+      <img src="./assets/images/image-avatar.webp" alt="Author Image" class="dp-img"/>
+      <p class="author">Greg Hooper</p>
+    </div>  
+  </div>  
+</body>
+</html>
