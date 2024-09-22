@@ -7,9 +7,9 @@
 - [Overview](#overview)
   - [The Challenge](#the-challenge)
   - [Screenshot](#screenshot)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [Continued development](#continued-development)
+- [My Process](#my-process)
+  - [Built With](#built-with)
+  - [Continued Development](#continued-development)
 - [Author](#author)
 
 ## Overview
@@ -30,7 +30,7 @@ Users should be able to:
 
 ## My Process
 
-### Built with
+### Built With
 
 - HTML5
 - CSS custom properties
