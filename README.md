@@ -44,7 +44,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Ashwin](https://ashwin-portfolio-alpha.vercel.app/)
+- Website - [Ashwin](https://ashwin.co.in)
 - Frontend Mentor - [@Ashwin-S-Nambiar](https://www.frontendmentor.io/profile/Ashwin-S-Nambiar)
 
 
